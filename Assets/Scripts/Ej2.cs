@@ -27,13 +27,13 @@ public class Ej2 : MonoBehaviour
         {
             float res1;
             res1 = monto - (precio1 + precio2 + precio3);
-            Debug.Log("te sobra" + res1);
+            Debug.Log("te sobra " + res1);
         }
         else if (precio1 + precio2 + precio3 > monto)
         {
             float res2;
-            res2 = (precio1 + precio2 + precio3)-monto;
-            Debug.Log("te sobra" + res2);
+            res2 = (precio1 + precio2 + precio3) - monto;
+            Debug.Log("te falta " + res2);
         }
     }
 
